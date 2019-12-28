@@ -33,7 +33,7 @@ const getCellContent = ({
     return isFlagged && '🚩';
   }
   if (isMine) {
-    return '💀';
+    return '☠️';
   }
   // if numOfSurroundedMines === 0, display nothing
   return numOfSurroundedMines || "";
