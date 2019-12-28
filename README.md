@@ -11,6 +11,8 @@ By default,
  - If it's not, all the surrounded cells will display the number of closest ☠️. If it's 0, it shows nothing
  - On right clicking event, you can mark the cell with 🚩and this will reduce the number of remaining mines from the board
  - You will win the game if you open all the cells except the ☠️ cells OR if you mark all of them \w 🚩
+ 
+<img src="./src/images/record.gif" width="700px" height="400px" />
 
 ## 2. Development
 
@@ -31,12 +33,10 @@ By default,
   # After successfull pkg installtion
   $ npm start
 ```
-Now, it will automatically open http://localhost:3000 and show you this basic minesweeper game board like below
-
-<img src="./src/images/record.gif" width="700px" height="400px" />
+Now, it will automatically open http://localhost:3000 and show you the basic minesweeper game board on the screen
 
 ### To run unit test:
 ```bash
   $ npm test
 ```
-It will find all files that end on *.spec.js under __tests__ dir and run them
+It will find all files that end on `*.spec.js` under `__tests__` dir and run them
