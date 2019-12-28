@@ -68,8 +68,8 @@ export const isGameStatusWon = createSelector(
 
 /**
  * @param {Object} state - The redux state
- * @returns {Boolean} gameBoard.status === "won"
- *   || gameBoard.status === "lost"
+ * @returns {Boolean} gameBoard.status === "lost"
+ *   || gameBoard.status === "won"
  */
 export const isGameOver = createSelector(
   isGameStatusLost,
