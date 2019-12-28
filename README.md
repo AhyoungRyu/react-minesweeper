@@ -12,7 +12,7 @@ By default,
  - On right clicking event, you can mark the cell with 🚩and this will reduce the number of remaining mines from the board
  - You will win the game if you open all the cells except the ☠️ cells OR if you mark all of them \w 🚩
  
-<img src="./src/images/record.gif" width="700px" height="400px" />
+<img src="./src/images/record.gif" width="500px" height="400px" />
 
 ## 2. Development
 
